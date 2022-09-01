@@ -1,0 +1,26 @@
+{
+  "name": "filestore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "web": "node server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohit Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "aws-sdk": "^2.1207.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "v16.16.0"
+  }
+}
